@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      process.env.MONGO_URI || 'mongodb://localhost:27017/ecoms',
+      process.env.MONGO_URI || 'mongodb+srv://kabyitvv:9M9tbbViC21mRuZt@cluster0.fv21ctb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
